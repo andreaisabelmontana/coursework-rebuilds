@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 44 live · all 14 categories complete · the core batch is done.**
+**Built so far: 47 live · all 14 categories complete · every listed build is live.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -111,9 +111,9 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 | **Mistral Kit** | A toolkit for building with the Mistral models | [live](https://andreaisabelmontana.github.io/mistral-kit/) |
 | **Garlic** | A developer tool studied from the ground up | [live](https://andreaisabelmontana.github.io/garlic/) |
 | **PyFreebody** | A Python library for free-body and statics problems | [live](https://andreaisabelmontana.github.io/pyfreebody/) |
-| **Briefbot** | A briefing/summarisation service written in Go | queued |
-| **Bugpoint** | A debugging-and-triage assistant | queued |
-| **compl.ai** | An AI compliance-checking tool | queued |
+| **Briefbot** | A dependency-free Go backend that scrapes, summarises and digests your reading list | [live](https://andreaisabelmontana.github.io/briefbot/) |
+| **Bugpoint** | A debugging assistant that shrinks a failing case to its minimal reproduction | [live](https://andreaisabelmontana.github.io/bugpoint/) |
+| **compl.ai** | An AI compliance-checking tool that audits a system against regulatory requirements | [live](https://andreaisabelmontana.github.io/compl-ai/) |
 
 ---
 
