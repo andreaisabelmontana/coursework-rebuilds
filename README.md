@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 29 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 32 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -68,9 +68,9 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 🛠️ Software Development & DevOps
 | Build | What it is | Status |
 |-------|------------|--------|
-| **QR Forge** | A FastAPI service that generates and manages QR codes | queued |
-| **URL Shortener** | A deployed FastAPI + React link shortener with analytics | queued |
-| **Bug Tracker** | A lightweight issue-and-bug tracking app | queued |
+| **QR Forge** | A FastAPI service that generates and manages QR codes | [live](https://andreaisabelmontana.github.io/qr-forge/) |
+| **URL Shortener** | A deployed FastAPI + React link shortener with analytics | [live](https://andreaisabelmontana.github.io/url-shortener/) |
+| **Bug Tracker** | A lightweight issue-and-bug tracking app with a status workflow | [live](https://andreaisabelmontana.github.io/bug-tracker/) |
 
 ## 🗄️ Databases
 | Build | What it is | Status |
