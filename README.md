@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 35 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 39 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -82,10 +82,10 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 💻 Programming (Java / C / Python)
 | Build | What it is | Status |
 |-------|------------|--------|
-| **Valinor** | A restaurant reservation system in Java | queued |
-| **terminalChat** | A terminal-based chat client written in C | queued |
-| **Lost & Found** | A lost-and-found matching app | queued |
-| **FutClub Manager** | A football-club management application | queued |
+| **Valinor** | A restaurant reservation system in Java, with a no-double-booking invariant | [live](https://andreaisabelmontana.github.io/valinor/) |
+| **terminalChat** | A terminal-based chat client & server written in C, on raw sockets | [live](https://andreaisabelmontana.github.io/terminal-chat/) |
+| **Lost & Found** | A lost-and-found app whose heart is a similarity-matching engine | [live](https://andreaisabelmontana.github.io/lost-and-found/) |
+| **FutClub Manager** | A football-club management application — squads, fixtures and a derived league table | [live](https://andreaisabelmontana.github.io/futclub-manager/) |
 
 ## ☁️ Cloud Computing
 | Build | What it is | Status |
