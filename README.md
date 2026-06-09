@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 11 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 16 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -28,11 +28,11 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 👁️ Computer Vision
 | Build | What it is | Status |
 |-------|------------|--------|
-| **Visual Place Recognition** | Recognise *where* a photo was taken by matching it against a database of known places | queued |
-| **Fatigued-Driver Detector** | Spot drowsiness from a driver's face — eye closure and yawning — in real time | queued |
-| **Chihuahua or Muffin** | The famous fine-grained classification gag, built for real: telling near-identical images apart | queued |
-| **HoloVinyl** | Turn a vinyl record into an interactive visual experience through the camera | queued |
-| **Panorama Stitcher** | Stitch overlapping photos into a single seamless panorama with feature matching and homographies | queued |
+| **Visual Place Recognition** | Recognise *where* a photo was taken by matching it against a database of known places | [live](https://andreaisabelmontana.github.io/visual-place-recognition/) |
+| **Fatigued-Driver Detector** | Spot drowsiness from a driver's face — eye closure and yawning — in real time | [live](https://andreaisabelmontana.github.io/fatigued-driver-detector/) |
+| **Chihuahua or Muffin?** | The famous fine-grained classification gag, built for real: telling near-identical images apart | [live](https://andreaisabelmontana.github.io/chihuahua-or-muffin/) |
+| **HoloVinyl** | Turn a vinyl record into an interactive AR experience through the camera | [live](https://andreaisabelmontana.github.io/holovinyl/) |
+| **Panorama Stitcher** | Stitch overlapping photos into a single seamless panorama with feature matching and homographies | [live](https://andreaisabelmontana.github.io/panorama-stitcher/) |
 
 ## 💬 Natural Language Processing
 | Build | What it is | Status |
