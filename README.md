@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 25 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 27 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -55,8 +55,8 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 | Build | What it is | Status |
 |-------|------------|--------|
 | **Efficient Classifier** ⭐ | A dataset-agnostic ML pipeline library — point it at data, get a tuned classifier | [live](https://andreaisabelmontana.github.io/efficient-classifier-rebuild/) |
-| **Statistical Learning** | The core statistical-learning methods, implemented and explained from first principles | queued |
-| **MortgagePredict** | Predict mortgage outcomes from applicant and loan features | queued |
+| **Statistical Learning** | The core statistical-learning methods, implemented and explained from first principles | [live](https://andreaisabelmontana.github.io/statistical-learning/) |
+| **MortgagePredict** | Predict mortgage outcomes from applicant and loan features — calibrated, explainable, fair | [live](https://andreaisabelmontana.github.io/mortgage-predict/) |
 
 ## ⚡ High-Performance Computing
 | Build | What it is | Status |
