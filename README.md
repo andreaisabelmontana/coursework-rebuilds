@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 20 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 25 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -45,11 +45,11 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 🎯 Recommendation Systems & Chatbots
 | Build | What it is | Status |
 |-------|------------|--------|
-| **BookDB** | A book recommendation engine wrapped in a social reading platform | queued |
-| **Reel** | A film discovery engine built on learned embeddings of taste | queued |
-| **Game Recommender** | Recommend video games from Amazon review signals | queued |
-| **Short-Video Recommender** | A recommendation system for an endless short-video feed | queued |
-| **Savory** | A recipe recommendation system that learns what you like to cook | queued |
+| **BookDB** | A book recommendation engine wrapped in a social reading platform | [live](https://andreaisabelmontana.github.io/bookdb/) |
+| **Reel** | A film discovery engine built on learned embeddings of taste | [live](https://andreaisabelmontana.github.io/reel-discovery/) |
+| **Game Recommender** | Recommend video games from Amazon review signals | [live](https://andreaisabelmontana.github.io/game-recommender/) |
+| **Short-Video Recommender** | A recommendation system for an endless short-video feed | [live](https://andreaisabelmontana.github.io/short-video-recommender/) |
+| **Savory** | A recipe recommendation system that learns what you like to cook | [live](https://andreaisabelmontana.github.io/savory-recsys/) |
 
 ## 📊 Machine Learning / Statistical Learning
 | Build | What it is | Status |
