@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 40 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 43 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -95,9 +95,9 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 🧠 AI Reasoning
 | Build | What it is | Status |
 |-------|------------|--------|
-| **Reasoning Games** | Agents that play Uno, Quoridor and Ghosts — search and adversarial reasoning | queued |
-| **Neural Noir** | An AI detective game where you reason your way to the culprit | queued |
-| **Reasoning Project** | A study of automated reasoning over a game environment | queued |
+| **Reasoning Games** | Agents that play Uno, Quoridor and Ghosts — search and adversarial reasoning | [live](https://andreaisabelmontana.github.io/reasoning-games/) |
+| **Neural Noir** | An AI detective game where an LLM runs the mystery and you reason to the culprit | [live](https://andreaisabelmontana.github.io/neural-noir/) |
+| **Reasoning Project** | A study of automated reasoning over a game environment — state-space search | [live](https://andreaisabelmontana.github.io/reasoning-project/) |
 
 ## 🌐 Web / Portfolio
 | Build | What it is | Status |
