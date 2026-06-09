@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 43 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 44 live · all 14 categories complete · the core batch is done.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -102,7 +102,7 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 🌐 Web / Portfolio
 | Build | What it is | Status |
 |-------|------------|--------|
-| **Portfolio Studies** | A set of personal-portfolio site builds, each a different take on presenting work | queued |
+| **Portfolio Studies** | A set of personal-portfolio site builds, each a different take on presenting work | [live](https://andreaisabelmontana.github.io/portfolio-studies/) |
 
 ## 🚀 Beyond Coursework — Startup-Grade Builds
 | Build | What it is | Status |
@@ -121,4 +121,4 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 Plain HTML + CSS (no build step), Google Fonts (Fraunces / Inter / JetBrains Mono), editorial layout,
 one accent colour per project, deployed via GitHub Pages.
 
-*This index is updated every time a new build goes live. Builds roll out one category at a time.*
+*All 14 categories are now live. This index is updated every time a new build goes live.*
