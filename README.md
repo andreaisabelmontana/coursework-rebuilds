@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 32 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 35 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -75,9 +75,9 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 ## 🗄️ Databases
 | Build | What it is | Status |
 |-------|------------|--------|
-| **TablePro** | An open-source database manager — browse, query and edit your data | queued |
-| **menuDatabase** | A restaurant-menu database design, from schema to queries | queued |
-| **stash** | A personal data-stashing store with a clean query layer | queued |
+| **TablePro** | An open-source database manager — browse, query and edit any schema | [live](https://andreaisabelmontana.github.io/tablepro/) |
+| **menuDatabase** | A restaurant-menu database design, from ER model to normalised schema to queries | [live](https://andreaisabelmontana.github.io/menu-database/) |
+| **stash** | Save YouTube videos, auto-extract transcripts and summarise them with an LLM | [live](https://andreaisabelmontana.github.io/stash/) |
 
 ## 💻 Programming (Java / C / Python)
 | Build | What it is | Status |
