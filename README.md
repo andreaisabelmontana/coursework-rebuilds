@@ -9,7 +9,7 @@ HPC and cloud. Each one is a showcase of what I made and what it taught me.
 > All original work: every project here is built by me from scratch — my own code, my own writing, my own
 > design. No templates, no forks, no attribution to anyone else's repo.
 
-**Built so far: 27 live · 14 categories · ongoing — one category at a time.**
+**Built so far: 29 live · 14 categories · ongoing — one category at a time.**
 
 Each build is a self-contained showcase site (plain HTML/CSS, editorial layout, one accent colour,
 GitHub Pages). Live builds link out; the rest are queued and roll out category by category.
@@ -62,8 +62,8 @@ GitHub Pages). Live builds link out; the rest are queued and roll out category b
 | Build | What it is | Status |
 |-------|------------|--------|
 | **GPU Monte-Carlo Risk** ⭐ | Pricing and risk by Monte-Carlo across CUDA, MPI and OpenMP — three flavours of parallelism | [live](https://andreaisabelmontana.github.io/gpu-montecarlo-risk-rebuild/) |
-| **HPC Final Project** | A parallel-computing capstone squeezing performance from a real workload | queued |
-| **miniHPC** | A small app that puts HPC scheduling and parallelism in your hands | queued |
+| **HPC Final Project** | A parallel-computing capstone squeezing performance from a real workload | [live](https://andreaisabelmontana.github.io/hpc-final-project/) |
+| **miniHPC** | A small app that puts HPC scheduling and parallelism in your hands | [live](https://andreaisabelmontana.github.io/mini-hpc/) |
 
 ## 🛠️ Software Development & DevOps
 | Build | What it is | Status |
