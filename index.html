@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>From-Scratch Builds — Coursework Index</title>
+<meta name="description" content="A categorized index of original projects I build from scratch across the whole CS & AI curriculum — RL, computer vision, NLP, recommendation systems, ML, HPC, databases, cloud and more." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#16181d; --muted:#5b6270; --line:#e5e7eb; --bg:#fafafa; --card:#ffffff;
+    --serif:'Fraunces',Georgia,serif; --sans:'Inter',system-ui,sans-serif; --mono:'JetBrains Mono',monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 28px}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacing:-.01em}
+  header.hero{padding:96px 0 44px}
+  .eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin:0 0 22px}
+  h1{font-size:clamp(2.8rem,7vw,4.6rem);margin:0 0 20px}
+  .lede{font-size:1.2rem;color:var(--muted);max-width:66ch;margin:0 0 22px}
+  .note{font-size:.92rem;color:var(--muted);max-width:66ch;border-left:2px solid var(--line);padding-left:16px}
+  .note b{color:var(--ink)}
+  .count{display:flex;gap:26px;margin:34px 0 0;flex-wrap:wrap}
+  .count .c{font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+  .count .c b{font-family:var(--serif);font-size:1.5rem;color:var(--ink);display:block;font-weight:500}
+  main{padding:30px 0 0;border-top:1px solid var(--line)}
+  .cat{padding-top:40px}
+  .cat h2{font-size:1.5rem;margin:0 0 4px;display:flex;align-items:center;gap:10px}
+  .cat .csub{font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 18px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+  .card{display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;transition:transform .15s ease,box-shadow .15s ease}
+  a.card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(20,24,40,.08)}
+  .card .num{font-family:var(--mono);font-size:.7rem;color:var(--dot);letter-spacing:.06em;display:flex;align-items:center;gap:7px}
+  .card .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--dot)}
+  .card h3{font-size:1.14rem;margin:10px 0 8px}
+  .card p{font-size:.9rem;color:var(--muted);margin:0 0 14px}
+  .card .go{font-family:var(--mono);font-size:.7rem;color:var(--dot)}
+  .card.soon{opacity:.72}
+  .card.soon .num{color:var(--muted)}
+  .card.soon .dot{background:#c7ccd6}
+  .tag{font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+  footer{padding:54px 0 90px;border-top:1px solid var(--line);margin-top:54px}
+  footer p{color:var(--muted);font-size:.9rem;max-width:74ch}
+  footer b{color:var(--ink)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Learning by building · coursework edition</p>
+    <h1>From-Scratch Builds</h1>
+    <p class="lede">An original project for every corner of the computer-science and AI curriculum — reinforcement learning, computer vision, NLP, recommendation systems, machine learning, high-performance computing, databases, cloud and more. Each one is built from the ground up, and is a showcase of what I made and what it taught me.</p>
+    <p class="note"><b>All original work:</b> every project here is built by me from scratch — my own code, my own writing, my own design. No templates, no forks.</p>
+    <div class="count">
+      <div class="c"><b>11</b> live</div>
+      <div class="c"><b>14</b> categories</div>
+      <div class="c"><b>∞</b> ongoing</div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="cat">
+    <h2>🤖 Reinforcement Learning</h2>
+    <p class="csub">Agents that learn from reward · 5 builds live</p>
+    <div class="cards">
+      <a class="card" style="--dot:#4f46e5" href="https://andreaisabelmontana.github.io/uncorrelated-returns/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Uncorrelated Returns</h3>
+        <p>Stack independent return streams to cut risk without cutting return — the "Holy Grail" of investing, in code.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#c2410c" href="https://andreaisabelmontana.github.io/mountain-car-control/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Mountain Car Control</h3>
+        <p>An underpowered car learns to swing back and forth to escape a valley — the classic delayed-reward problem.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#db2777" href="https://andreaisabelmontana.github.io/swipe-rl/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Swipe-to-Train</h3>
+        <p>Preference-based RL: an agent learns what "good" means from human swipes — the human-in-the-loop core of RLHF.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#0d9488" href="https://andreaisabelmontana.github.io/rl-control-lab/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>RL Control Lab</h3>
+        <p>A workbench of classic RL algorithms — Q-learning, SARSA, policy gradients — benchmarked on the same tasks.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#2563eb" href="https://andreaisabelmontana.github.io/mesh-parking-rl/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Mesh Parking RL</h3>
+        <p>An agent learns to park on a mesh-discretised lot, with a paper-style write-up of the method.</p><div class="go">View build →</div></a>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>👁️ Computer Vision</h2>
+    <p class="csub">Teaching machines to see · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Visual Place Recognition</h3><p>Recognise <i>where</i> a photo was taken by matching it against a database of known places.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Fatigued-Driver Detector</h3><p>Spot drowsiness from a driver's face — eye closure and yawning — in real time.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Chihuahua or Muffin</h3><p>The fine-grained classification gag, built for real: telling near-identical images apart.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>HoloVinyl</h3><p>Turn a vinyl record into an interactive visual experience through the camera.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Panorama Stitcher</h3><p>Stitch overlapping photos into one seamless panorama with feature matching and homographies.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>💬 Natural Language Processing</h2>
+    <p class="csub">Making sense of text · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Semantic Engagement</h3><p>Predict short-video engagement from the meaning of captions, not just the metrics.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Notification Triage</h3><p>Rank notifications by priority using semantic analysis of their content.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Tactics of Persuasion</h3><p>Detect the rhetorical tactics used in political messaging.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Document Classifier</h3><p>Sort documents into categories from their text alone.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>🎯 Recommendation Systems &amp; Chatbots</h2>
+    <p class="csub">Surfacing what you'll love · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>BookDB</h3><p>A book recommendation engine wrapped in a social reading platform.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Reel</h3><p>A film discovery engine built on learned embeddings of taste.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Game Recommender</h3><p>Recommend video games from Amazon review signals.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Short-Video Recommender</h3><p>A recommendation system for an endless short-video feed.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Savory</h3><p>A recipe recommendation system that learns what you like to cook.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>📊 Machine Learning / Statistical Learning</h2>
+    <p class="csub">Learning patterns from data · 1 build live</p>
+    <div class="cards">
+      <a class="card" style="--dot:#7c3aed" href="https://andreaisabelmontana.github.io/efficient-classifier-rebuild/">
+        <div class="num"><span class="dot"></span>LIVE ⭐</div><h3>Efficient Classifier</h3>
+        <p>A dataset-agnostic ML pipeline library — point it at data, get a tuned classifier.</p><div class="go">View build →</div></a>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Statistical Learning</h3><p>The core statistical-learning methods, implemented and explained from first principles.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>MortgagePredict</h3><p>Predict mortgage outcomes from applicant and loan features.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>⚡ High-Performance Computing</h2>
+    <p class="csub">Squeezing every cycle · 1 build live</p>
+    <div class="cards">
+      <a class="card" style="--dot:#15803d" href="https://andreaisabelmontana.github.io/gpu-montecarlo-risk-rebuild/">
+        <div class="num"><span class="dot"></span>LIVE ⭐</div><h3>GPU Monte-Carlo Risk</h3>
+        <p>Pricing and risk by Monte-Carlo across CUDA, MPI and OpenMP — three flavours of parallelism.</p><div class="go">View build →</div></a>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>HPC Final Project</h3><p>A parallel-computing capstone squeezing performance from a real workload.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>miniHPC</h3><p>A small app that puts HPC scheduling and parallelism in your hands.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>🛠️ Software Development &amp; DevOps</h2>
+    <p class="csub">Shipping real services · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>QR Forge</h3><p>A FastAPI service that generates and manages QR codes.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>URL Shortener</h3><p>A deployed FastAPI + React link shortener with analytics.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Bug Tracker</h3><p>A lightweight issue-and-bug tracking app.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>🗄️ Databases</h2>
+    <p class="csub">Where the data lives · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>TablePro</h3><p>An open-source database manager — browse, query and edit your data.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>menuDatabase</h3><p>A restaurant-menu database design, from schema to queries.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>stash</h3><p>A personal data-stashing store with a clean query layer.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>💻 Programming · Java / C / Python</h2>
+    <p class="csub">Fundamentals, hand-built · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Valinor</h3><p>A restaurant reservation system in Java.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>terminalChat</h3><p>A terminal-based chat client written in C.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Lost &amp; Found</h3><p>A lost-and-found matching app.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>FutClub Manager</h3><p>A football-club management application.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>☁️ Cloud Computing</h2>
+    <p class="csub">Built for the cloud · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Expense Management</h3><p>A cloud-deployed expense management system.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>🧠 AI Reasoning</h2>
+    <p class="csub">Search, planning and play · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Reasoning Games</h3><p>Agents that play Uno, Quoridor and Ghosts — search and adversarial reasoning.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Neural Noir</h3><p>An AI detective game where you reason your way to the culprit.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Reasoning Project</h3><p>A study of automated reasoning over a game environment.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>🌐 Web / Portfolio</h2>
+    <p class="csub">Presenting the work · queued</p>
+    <div class="cards">
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Portfolio Studies</h3><p>A set of personal-portfolio site builds, each a different take on presenting work.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2>🚀 Beyond Coursework — Startup-Grade Builds</h2>
+    <p class="csub">Studying the hard, polished stuff · 4 builds live</p>
+    <div class="cards">
+      <a class="card" style="--dot:#0e9aa7" href="https://andreaisabelmontana.github.io/radioform-web/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Radioform</h3><p>A polished web product build studied end to end.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#d97706" href="https://andreaisabelmontana.github.io/mistral-kit/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Mistral Kit</h3><p>A toolkit for building with the Mistral models.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#b91c1c" href="https://andreaisabelmontana.github.io/garlic/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>Garlic</h3><p>A developer tool studied from the ground up.</p><div class="go">View build →</div></a>
+      <a class="card" style="--dot:#7c3aed" href="https://andreaisabelmontana.github.io/pyfreebody/">
+        <div class="num"><span class="dot"></span>LIVE</div><h3>PyFreebody</h3><p>A Python library for free-body and statics problems.</p><div class="go">View build →</div></a>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Briefbot</h3><p>A briefing/summarisation service written in Go.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>Bugpoint</h3><p>A debugging-and-triage assistant.</p><span class="tag">soon</span></div>
+      <div class="card soon"><div class="num"><span class="dot"></span>QUEUED</div><h3>compl.ai</h3><p>An AI compliance-checking tool.</p><span class="tag">soon</span></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Original from-scratch builds by <b>Andrea</b> · plain HTML/CSS, deployed on GitHub Pages · the index fills in category by category as each build goes live.</p>
+  </div>
+</footer>
+</body>
+</html>
